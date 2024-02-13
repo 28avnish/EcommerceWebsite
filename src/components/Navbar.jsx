@@ -5,7 +5,6 @@ import { MDBCol } from "mdbreact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
-// navbar
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
